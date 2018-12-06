@@ -153,7 +153,7 @@ h3, h2 {
   border: 0 none;
   opacity: 0.8;
 }
-
+  
 .work h3 {
   position: absolute;
   bottom: 20px;
@@ -214,4 +214,19 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (width: 640px) {
+  #masthead {
+    position: static;
+    margin-top: 0;
+  }
+
+  #main-container {
+    padding-top: 0;
+  }
+  #logo {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
